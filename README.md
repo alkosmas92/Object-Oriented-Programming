@@ -9,6 +9,11 @@ When creating a forum, its title is assigned and the message "Forum with title: 
  Regarding the behavior of the above, the following applies. For the forum to given the ability to be printed, by printing the titles of its threads. Also given the ability to select a thread by specifying the title and then print the thread. Finally, for the forum to be given the opportunity to select a post, giving it number and then this post to be printed.
  A thread is printed by printing its subject, its creator, the date of publication, his creator and his posts.
  A post is printed, printing its number, its title, its creator, the date of its creation and its text.
+    I increase the behavior of the above forum with another function print-sorted which prints all his posts sorted in ascending order per creator. The posts of the same author, among themselves, let them not be sorted by somehow. 
+    I use a binary search tree structure for ranking tree, with nodes consisting of the creators accompanied by a list with their posts. I create this structure, for each post, if there is no node set to correspond to its creator, to insert a new node in the appropriate position. If already exists, just i add the post to the list. The tree should be initialized by taking a thread as a given, entering all its posts. Once it has been created, there is a possibility to insert a new post in the tree as described above.     
+   Also, to be able to print the tree, printing their contents nodes, as the type of their part of indicates. Print in order visit the nodes "first in depth and from left to right" inorder traversal.
+ Finally, offer the possibility of increasing the tree with the contents of another tree. 
+ For each node of the second tree, if for its creator there is a node in first tree, its posts should be added to the list of posts of the first. Otherwise, yes a new node is created in the first tree containing the node contents.
  
 Example with :
 1. I create a forum entitled "Object Oriented Programming"
