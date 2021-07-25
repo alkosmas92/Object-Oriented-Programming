@@ -1,4 +1,4 @@
-# simple-project-with-c-
+# simple-project-with-c++ 
 
  I Implement the C ++ the image of a discussion forum, e.g. “Object Oriented Program-as described below. 
  A forum it consisted of its "title" and a number of threads.
