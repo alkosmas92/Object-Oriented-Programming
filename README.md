@@ -1,7 +1,7 @@
 # simple-project-with-C++ 
 
-Compile : 1) g++ askisi2.cpp -o askisi2 
-Run :     2) ./askisi2
+Compile : 1) g++ forum.cpp -o forum  
+Run :     2) ./forum
 
  I Implement the C ++ the image of a discussion forum, e.g. “Object Oriented Program-as described below. 
  A forum it consisted of its "title" and a number of threads.
@@ -50,23 +50,6 @@ print_threads: prints all threads.
 find_the_thread: prints all posts of a specific one thread.
 find_the_post: prints all the posts we select.
 print_sorted (): implement and print the tree using Tree ** end_tree
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 -I declare in the class String and class PlaneComponent before the pre-definition because of i use them before their initialization
 
