@@ -1,4 +1,4 @@
-# simple-project-with-C++ 
+# Simple object-oriented programming project-with-C++ 
 
 Compile : 1) g++ forum.cpp -o forum  
 Run :     2) ./forum
